@@ -1,0 +1,19 @@
+{
+    "name": "natours",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "homepage": "https://avilevant.github.io/natours",
+    "scripts": {
+        "compile:sass": "node-sass sass/main.scss css/style.css -w",
+        "predeploy": "npm build",
+        "deploy": "gh-pages -d build"
+
+    },
+    "author": "aviLevant",
+    "license": "ISC",
+    "devDependencies": {
+        "gh-pages": "^2.2.0",
+        "node-sass": "^4.13.1"
+    }
+}
